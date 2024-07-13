@@ -3,24 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        hr{
-            color: red;
-        }
-
-        h2{
-            color: green;
-            font-size: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <hr />  
-    <h1 style="color: red">OLA MUNDO</h1>
-    <hr> 
-    <h2>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum beatae aspernatur dolore ex laborum ratione sed quaerat! Mollitia, rerum magni minus recusandae aut culpa vitae non, distinctio maiores adipisci quis.
-    </h2>
+    <header>
+        <h1>LabQuiz</h1>
+        <p>Bem-vindo ao LabQuiz! Teste seus conhecimentos em 8 perguntas e divirta-se.</p>
+        <form>
+            <label for="playerName">Digite seu nome:</label>
+            <input type="text" id="playerName" placeholder="Seu nome aqui">
+            <button type="button">Iniciar</button>
+        </form>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- Pergunta 1 -->
+        <p>Pergunta 1) Como se define um estilo inline em HTML?</p>
+        <input type="text" id="resposta1">
+
+        <!-- Pergunta 2 -->
+        <p>Pergunta 2) Qual é a tag usada para criar uma lista ordenada em HTML?</p>
+        <select id="resposta2">
+            <option value="">Selecione</option>
+            <option value="ol">ol</option>
+            <option value="ul">ul</option>
+            <option value="li">li</option>
+            <option value="order-list">order-list</option>
+        </select>
+
+        <!-- Pergunta 3 -->
+        <p>Pergunta: 3) Qual propriedade CSS é usada para alterar a cor do texto?</p>
+        <select id="resposta3">
+            <option value="">Selecione</option>
+            <option value="font-color">font-color</option>
+            <option value="color">color</option>
+            <option value="background-color">background-color</option>
+            <option value="text-color">text-color</option>
+        </select>
+
+        <!-- Pergunta 4 -->
+        <p>Pergunta: 4) Como se referencia um arquivo CSS externo em um documento HTML?</p>
+        <input type="text" id="resposta4">
+
+        <!-- Pergunta 5 -->
+        <p>Pergunta: 5) Font-size é a propriedade CSS usada para alterar o tamanho da fonte de um texto?</p>
+        <select id="resposta5">
+            <option value="">Selecione</option>
+            <option value="sim">sim</option>
+            <option value="não">não</option>
+        </select>
+
+        <!-- Pergunta 6 -->
+        <p>Pergunta 6) Qual é a propriedade CSS usada para definir a largura de um elemento?</p>
+        <input type="checkbox" id="resposta6-height" value="height">
+        <label for="resposta6-height">height</label>
+
+        <input type="checkbox" id="resposta6-width" value="width">
+        <label for="resposta6-width">width</label>
+
+        <input type="checkbox" id="resposta6-max-width" value="max-width">
+        <label for="resposta6-max-width">max-width</label>
+
+        <!-- Pergunta 7 -->
+        <p>Pergunta 7) Como se cria um comentário em CSS?</p>
+        <input type="checkbox" id="resposta7-1" value="//">
+        <label for="resposta7-1">&lt;!-- --&gt;</label>
+        <input type="checkbox" id="resposta7-2" value="//">
+        <label for="resposta7-2">//</label>
+        <input type="checkbox" id="resposta7-3" value="/* */">
+        <label for="resposta7-3">/* */</label>
+            
+        <!-- Pergunta 8 -->
+        <p>Pergunta 8) Qual é a propriedade CSS usada para definir a altura de um elemento?</p>
+        <input type="checkbox" id="resposta8-height" value="height">
+        <label for="resposta8-height">height</label>
+
+        <input type="checkbox" id="resposta8-size" value="size">
+        <label for="resposta8-size">size</label>
+
+        <input type="checkbox" id="resposta8-min-height" value="min-height">
+        <label for="resposta8-min-height">min-height</label>
+
+        <input type="checkbox" id="resposta8-max-height" value="max-height">
+        <label for="resposta8-max-height">max-height</label>
+
+    </main>
+
+    <footer>
+        <p>Feito por João Ito <a href="https://github.com/ajjaum" target="_blank">- Meu github</a></p>
+    </footer>
 </body>
 </html>
+
+</body>
+</html>
+
